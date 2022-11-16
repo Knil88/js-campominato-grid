@@ -22,7 +22,7 @@ if(difficult == "normal"){
         nuovoElemento.append(i);
          nuovoElemento.addEventListener("click",
          function(){
-            nuovoElemento.classList.toggle("clicked");
+            nuovoElemento.classList.add("clicked");
             console.log("Stai cliccando il numero",i);
          }
          )
@@ -44,7 +44,7 @@ if(difficult == "normal"){
         nuovoElemento.append(i);
          nuovoElemento.addEventListener("click",
          function(){
-            nuovoElemento.classList.toggle("clicked");
+            nuovoElemento.classList.add("clicked");
             console.log("Stai cliccando il numero",i);
          }
          )
@@ -65,7 +65,7 @@ if(difficult == "normal"){
             nuovoElemento.append(i);
              nuovoElemento.addEventListener("click",
              function(){
-                nuovoElemento.classList.toggle("clicked");
+                nuovoElemento.classList.add("clicked");
                 console.log("Stai cliccando il numero",i);
              }
              )

@@ -1,10 +1,10 @@
 //Campo Minato
     //Creiamo la variabile container dove appenderemo i nostri elementi
-    let container = document.getElementById("container-grid");
+let container = document.getElementById("container-grid");
 
-    console.log(container);
-    
-    let difficult = document.getElementById("difficoltà");
+console.log(container);
+
+let difficult = document.getElementById("difficoltà");
 
 let myBtn = document.querySelector("#play");
 
@@ -22,7 +22,7 @@ function (){
         nuovoElemento.append(i);
          nuovoElemento.addEventListener("click",
          function(){
-            nuovoElemento.classList.toggle("clicked");
+            nuovoElemento.classList.add("clicked");
             console.log("Stai cliccando il numero",i);
          }
          )
