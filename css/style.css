@@ -4,24 +4,55 @@
     padding:0;
 }
 
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.flex{
+    display:flex;
+}
+
+h1,#play{
+    align-self: center;
+}
+#play{
+width: 100%;
+}
+#width{
+    width: 7%;
+}
 body{
-    background-color: blueviolet;
+    
     font-family: sans-serif;
-    color: white;
+    
 }
 
 h1{
     text-align: center;
 }
-.container-title{
-    margin: auto;
-    width: 50%;
+main {
+    background-color: aqua;
+ 
+}
+#container-grid{
+  
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 45%;
+  padding: 30px 0px;
   }
 
-.box {
-    
+  .box {
     text-align: center;
-    width: calc(16% - 10px);
-    padding: 30px 0px;
-    margin: 10px;
+    width: 10%;
+    padding: 10px 0px;
+    border: 1px solid;
+  }
+  footer{
+    background-color: white;
+    padding: 20px;
+    height: 150px;
   }

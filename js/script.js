@@ -7,18 +7,20 @@ console.log(container);
 let myBtn = document.querySelector("#play");
 
 myBtn.addEventListener("click",
-function(event){
-    let i=1 
-    while( i<=100){
+function (){
+    container.innerHTML= "";
+    for(let i=1 ; i<=100; i++){
+        
         let nuovoElemento = createBox();
         container.appendChild(nuovoElemento);
         nuovoElemento.append(i);
-        i++
+       
         
     
         
     }
 }
+
 )
 
 
