@@ -18,10 +18,11 @@ function (){
             
             container.appendChild(nuovoElemento);
     
-            nuovoElemento.append(i);
+           
              nuovoElemento.addEventListener("click",
              function(){
                 nuovoElemento.classList.add("clicked");
+                nuovoElemento.innerHTML = i;
                 console.log("Stai cliccando il numero",i);
              }
              )
@@ -40,10 +41,12 @@ function (){
             nuovoElemento.style.width="11%";
             container.appendChild(nuovoElemento);
     
-            nuovoElemento.append(i);
+           
              nuovoElemento.addEventListener("click",
              function(){
                 nuovoElemento.classList.add("clicked");
+                nuovoElemento.innerHTML = i;
+             
                 console.log("Stai cliccando il numero",i);
              }
              )
@@ -62,10 +65,12 @@ function (){
             nuovoElemento.style.width="14%";
             container.appendChild(nuovoElemento);
     
-            nuovoElemento.append(i);
+            
              nuovoElemento.addEventListener("click",
              function(){
                 nuovoElemento.classList.add("clicked");
+                nuovoElemento.innerHTML = i;
+               
                 console.log("Stai cliccando il numero",i);
              }
              )
