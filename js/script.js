@@ -19,6 +19,7 @@ function (){
          nuovoElemento.addEventListener("click",
          function(){
             nuovoElemento.classList.toggle("clicked");
+            console.log("Stai cliccando il numero",i);
          }
          )
        
