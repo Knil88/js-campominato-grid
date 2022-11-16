@@ -11,15 +11,23 @@ function (){
     container.innerHTML= "";
     for(let i=1 ; i<=100; i++){
         
-        let nuovoElemento = createBox();
+        let nuovoElemento = createBox("div","box");
+        
         container.appendChild(nuovoElemento);
+
         nuovoElemento.append(i);
+         nuovoElemento.addEventListener("click",
+         function(){
+            nuovoElemento.classList.toggle("clicked");
+         }
+         )
        
+        
         
     
         
     }
-}
+} 
 
 )
 

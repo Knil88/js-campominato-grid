@@ -50,6 +50,11 @@ main {
     width: 10%;
     padding: 10px 0px;
     border: 1px solid;
+    cursor: pointer;
+  }
+  .box.clicked{
+    background-color: chartreuse;
+
   }
   footer{
     background-color: white;
