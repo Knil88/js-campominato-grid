@@ -21,7 +21,7 @@ h1,#play{
 width: 100%;
 }
 #width{
-    width: 7%;
+    width: 16%;
 }
 body{
     
@@ -36,6 +36,7 @@ main {
     background-color: aqua;
  
 }
+
 #container-grid{
   
   margin: auto;
@@ -51,6 +52,11 @@ main {
     padding: 10px 0px;
     border: 1px solid;
     cursor: pointer;
+  }
+
+  #difficoltà{
+    height: 20px;
+    align-self: center;
   }
   .box.clicked{
     background-color: chartreuse;
